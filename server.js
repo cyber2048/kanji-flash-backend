@@ -9,13 +9,13 @@ const authRoutes = require('./src/routes/auth');
 
 const app = express();
 
-const allowedOrigins = [
-  'https://kanji-flash-frontend.onrender.com',  
-  'http://localhost:3000'                      
-];
+// const allowedOrigins = [
+//   'https://kanji-flash-frontend.onrender.com',  
+//   'http://localhost:3000'                      
+// ];
 
 app.use(cors({
-  origin: allowedOrigins,
+  origin: 'https://kanji-flash-frontend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
