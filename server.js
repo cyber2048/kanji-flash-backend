@@ -9,11 +9,15 @@ const authRoutes = require('./src/routes/auth');
 
 const app = express();
 
-// CORS configuration - MUST BE BEFORE OTHER MIDDLEWARE
+const allowedOrigins = [
+  'https://kanji-flash-frontend.onrender.com',  
+  'http://localhost:3000'                      
+];
+
 app.use(cors({
-  origin: 'http://localhost:3001', // Your React app's URL
-  credentials: true,
-  allowedHeaders: ['Content-Type', 'Authorization']
+  origin: allowedOrigins,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
 }));
 
 app.use(express.json());
