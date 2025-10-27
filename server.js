@@ -60,6 +60,12 @@ app.get('/api/kanji', async (req, res) => {
   }
 });
 
+//backend test route
+app.get('/', (req, res) => {
+  res.send('KanjiFlash Backend is Running');
+});
+
+
 //test route
 app.get('/api/kanji/test', async (req, res) => {
   try {
