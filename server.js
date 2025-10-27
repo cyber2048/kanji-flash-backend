@@ -53,10 +53,24 @@ app.get('/api/protected', authMiddleware, (req, res) => {
 // Public kanji route
 app.get('/api/kanji', async (req, res) => {
   try {
-    const kanjiList = await Kanji.find();
+    const kanjiList = await Kanji.find().select('id kanji meaning hint romaji kana jlpt_level');
     res.json(kanjiList);
   } catch (error) {
     res.status(500).json({ message: 'Error fetching kanji' });
+  }
+});
+
+//test route
+app.get('/api/kanji/test', async (req, res) => {
+  try {
+    const oneKanji = await Kanji.findOne();
+    res.json({
+      message: 'Sample kanji document',
+      data: oneKanji,
+      fields: Object.keys(oneKanji.toObject())
+    });
+  } catch (error) {
+    res.status(500).json({ message: 'Error', error: error.message });
   }
 });
 

@@ -22,6 +22,18 @@ const savedKanjiSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  romaji: {
+    type: [String],
+    default: []  // Default to empty array if not provided
+  },
+  kana: {
+    type: [String],
+    default: []  // Default to empty array if not provided
+  },
+  jlpt_level: {
+    type: String,
+    default: ''  // Default to empty string if not provided
+  },    
   savedAt: {
     type: Date,
     default: Date.now

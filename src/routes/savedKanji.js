@@ -17,7 +17,7 @@ router.get('/', authMiddleware, async (req, res) => {
 // Save a kanji
 router.post('/', authMiddleware, async (req, res) => {
   try {
-    const { kanjiId, kanji, meaning, hint } = req.body;
+    const { kanjiId, kanji, meaning, hint, romaji, kana, jlpt_level } = req.body;
 
     // Check if already saved
     const existing = await SavedKanji.findOne({ 
@@ -34,7 +34,10 @@ router.post('/', authMiddleware, async (req, res) => {
       kanjiId,
       kanji,
       meaning,
-      hint
+      hint,
+      romaji,
+      kana,
+      jlpt_level
     });
 
     await savedKanji.save();

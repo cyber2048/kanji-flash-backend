@@ -1,122 +1,1684 @@
 [
-  {"id": 1, "kanji": "一", "meaning": "one", "hint": "A single straight line; like drawing the number 1."},
-  {"id": 2, "kanji": "二", "meaning": "two", "hint": "Two horizontal lines; think of the number 2."},
-  {"id": 3, "kanji": "三", "meaning": "three", "hint": "Three horizontal lines; like counting on your fingers."},
-  {"id": 4, "kanji": "四", "meaning": "four", "hint": "A square shape; imagine the corners of a box."},
-  {"id": 5, "kanji": "五", "meaning": "five", "hint": "A man with arms out; think of high-fiving someone."},
-  {"id": 6, "kanji": "六", "meaning": "six", "hint": "A roof on a pole; like a flag on a stick."},
-  {"id": 7, "kanji": "七", "meaning": "seven", "hint": "A line with a slash; imagine cutting a line seven times."},
-  {"id": 8, "kanji": "八", "meaning": "eight", "hint": "Two lines crossing; like the shape of the number 8."},
-  {"id": 9, "kanji": "九", "meaning": "nine", "hint": "A hook or curve; think of a fishhook."},
-  {"id": 10, "kanji": "十", "meaning": "ten", "hint": "A plus sign; like adding 1 and 0."},
-  {"id": 11, "kanji": "人", "meaning": "person", "hint": "A standing figure; like a simple human silhouette."},
-  {"id": 12, "kanji": "山", "meaning": "mountain", "hint": "Two peaks; imagine hiking up a hill."},
-  {"id": 13, "kanji": "水", "meaning": "water", "hint": "Three drops; think of water flowing from a tap."},
-  {"id": 14, "kanji": "火", "meaning": "fire", "hint": "Two lines with a dot; like a flickering flame."},
-  {"id": 15, "kanji": "木", "meaning": "tree", "hint": "A trunk with branches; imagine a simple tree in a park."},
-  {"id": 16, "kanji": "金", "meaning": "gold/metal", "hint": "A roof over a field; think of mining for gold."},
-  {"id": 17, "kanji": "土", "meaning": "earth/soil", "hint": "A mound of dirt; like a pile in the ground."},
-  {"id": 18, "kanji": "日", "meaning": "sun/day", "hint": "A circle with a dot; imagine the sun rising."},
-  {"id": 19, "kanji": "月", "meaning": "moon/month", "hint": "A crescent shape; like the moon at night."},
-  {"id": 20, "kanji": "女", "meaning": "woman", "hint": "A woman with a broom; think of traditional roles."},
-  {"id": 21, "kanji": "男", "meaning": "man", "hint": "A field on legs; imagine a strong man standing."},
-  {"id": 22, "kanji": "子", "meaning": "child", "hint": "A child sitting; like a small person."},
-  {"id": 23, "kanji": "目", "meaning": "eye", "hint": "An eye shape; think of blinking eyes."},
-  {"id": 24, "kanji": "口", "meaning": "mouth", "hint": "A simple square; like an open mouth."},
-  {"id": 25, "kanji": "手", "meaning": "hand", "hint": "A hand extended; imagine waving hello."},
-  {"id": 26, "kanji": "足", "meaning": "foot/leg", "hint": "Kneeling legs; think of walking feet."},
-  {"id": 27, "kanji": "大", "meaning": "big/large", "hint": "A person with arms out; like something huge."},
-  {"id": 28, "kanji": "小", "meaning": "small", "hint": "A small drop; imagine something tiny."},
-  {"id": 29, "kanji": "上", "meaning": "up/above", "hint": "An arrow pointing up; like going upstairs."},
-  {"id": 30, "kanji": "下", "meaning": "down/below", "hint": "An arrow pointing down; like going downstairs."},
-  {"id": 31, "kanji": "中", "meaning": "middle/inside", "hint": "A box with lines; think of something in the center."},
-  {"id": 32, "kanji": "左", "meaning": "left", "hint": "A hand pointing left; imagine your left side."},
-  {"id": 33, "kanji": "右", "meaning": "right", "hint": "A hand pointing right; imagine your right side."},
-  {"id": 34, "kanji": "前", "meaning": "front/before", "hint": "A line with a stop; like moving forward."},
-  {"id": 35, "kanji": "後", "meaning": "behind/after", "hint": "A line with a tail; think of something following."},
-  {"id": 36, "kanji": "内", "meaning": "inside", "hint": "A border enclosing; imagine inside a room."},
-  {"id": 37, "kanji": "外", "meaning": "outside", "hint": "A border opening; think of going outdoors."},
-  {"id": 38, "kanji": "文", "meaning": "sentence/writing", "hint": "A character in a box; like a written word."},
-  {"id": 39, "kanji": "字", "meaning": "character/letter", "hint": "A child under a roof; think of learning letters."},
-  {"id": 40, "kanji": "学", "meaning": "study/learn", "hint": "A child under a roof with a book; imagine studying."},
-  {"id": 41, "kanji": "校", "meaning": "school", "hint": "A tree by a building; think of a schoolyard."},
-  {"id": 42, "kanji": "生", "meaning": "life/birth", "hint": "A plant growing; imagine something alive."},
-  {"id": 43, "kanji": "工", "meaning": "work/craft", "hint": "An I-beam; like a worker's tool."},
-  {"id": 44, "kanji": "公", "meaning": "public", "hint": "Eight under a roof; think of a public building."},
-  {"id": 45, "kanji": "分", "meaning": "divide/part", "hint": "A knife cutting; imagine dividing something."},
-  {"id": 46, "kanji": "切", "meaning": "cut", "hint": "Seven with a knife; think of slicing."},
-  {"id": 47, "kanji": "本", "meaning": "book/origin", "hint": "A tree with lines; like a book's pages."},
-  {"id": 48, "kanji": "犬", "meaning": "dog", "hint": "A big animal; imagine a barking dog."},
-  {"id": 49, "kanji": "猫", "meaning": "cat", "hint": "A wild cat; think of a feline."},
-  {"id": 50, "kanji": "車", "meaning": "car/vehicle", "hint": "A cart with wheels; imagine driving."},
-  {"id": 51, "kanji": "電", "meaning": "electricity", "hint": "Rain under a line; think of lightning."},
-  {"id": 52, "kanji": "気", "meaning": "spirit/air", "hint": "Steam rising; imagine breath or gas."},
-  {"id": 53, "kanji": "天", "meaning": "heaven/sky", "hint": "A big person above; like the sky."},
-  {"id": 54, "kanji": "地", "meaning": "ground/earth", "hint": "Soil with lines; think of the earth's surface."},
-  {"id": 55, "kanji": "雨", "meaning": "rain", "hint": "Dots falling; imagine raindrops."},
-  {"id": 56, "kanji": "雪", "meaning": "snow", "hint": "Rain freezing; think of snowflakes."},
-  {"id": 57, "kanji": "花", "meaning": "flower", "hint": "A plant blooming; imagine a pretty flower."},
-  {"id": 58, "kanji": "食", "meaning": "eat/food", "hint": "A cover over food; like a meal."},
-  {"id": 59, "kanji": "飲", "meaning": "drink", "hint": "Water in a container; think of sipping."},
-  {"id": 60, "kanji": "休", "meaning": "rest", "hint": "A person under a tree; imagine relaxing."},
-  {"id": 61, "kanji": "行", "meaning": "go/walk", "hint": "Crossroads; think of moving forward."},
-  {"id": 62, "kanji": "来", "meaning": "come", "hint": "A person arriving; imagine someone coming."},
-  {"id": 63, "kanji": "入", "meaning": "enter", "hint": "Arrow going in; like entering a door."},
-  {"id": 64, "kanji": "出", "meaning": "exit", "hint": "Arrow going out; think of leaving."},
-  {"id": 65, "kanji": "見", "meaning": "see", "hint": "An eye with legs; imagine looking around."},
-  {"id": 66, "kanji": "聞", "meaning": "hear", "hint": "An ear with a gate; think of listening."},
-  {"id": 67, "kanji": "言", "meaning": "say", "hint": "Words from a mouth; imagine speaking."},
-  {"id": 68, "kanji": "話", "meaning": "talk/speech", "hint": "Words under a mouth; think of chatting."},
-  {"id": 69, "kanji": "読", "meaning": "read", "hint": "Words with a sell; imagine reading a book."},
-  {"id": 70, "kanji": "書", "meaning": "write", "hint": "A hand with a script; think of writing."},
-  {"id": 71, "kanji": "買", "meaning": "buy", "hint": "A shell exchanged; imagine shopping."},
-  {"id": 72, "kanji": "売", "meaning": "sell", "hint": "A net over goods; think of selling items."},
-  {"id": 73, "kanji": "店", "meaning": "store", "hint": "A shop with a counter; imagine a store front."},
-  {"id": 74, "kanji": "家", "meaning": "house", "hint": "A roof with a pig; think of a home."},
-  {"id": 75, "kanji": "門", "meaning": "gate", "hint": "A big door; imagine entering a gate."},
-  {"id": 76, "kanji": "道", "meaning": "road/way", "hint": "A path with a head; think of a street."},
-  {"id": 77, "kanji": "駅", "meaning": "station", "hint": "A building with a stand; imagine a train station."},
-  {"id": 78, "kanji": "止", "meaning": "stop", "hint": "A foot stopping; like halting."},
-  {"id": 79, "kanji": "立", "meaning": "stand", "hint": "A person standing; imagine upright."},
-  {"id": 80, "kanji": "走", "meaning": "run", "hint": "A running person; think of sprinting."},
-  {"id": 81, "kanji": "北", "meaning": "north", "hint": "A spoon pointing up; imagine the north direction."},
-  {"id": 82, "kanji": "南", "meaning": "south", "hint": "A stretch downward; think of the south."},
-  {"id": 83, "kanji": "東", "meaning": "east", "hint": "A tree on a hill; imagine the east sun."},
-  {"id": 84, "kanji": "西", "meaning": "west", "hint": "A bird flying west; think of the setting sun."},
-  {"id": 85, "kanji": "元", "meaning": "origin", "hint": "A person at the start; imagine the beginning."},
-  {"id": 86, "kanji": "気", "meaning": "spirit", "hint": "As before, for consistency."},
-  {"id": 87, "kanji": "力", "meaning": "power", "hint": "A strong arm; imagine flexing."},
-  {"id": 88, "kanji": "半", "meaning": "half", "hint": "A divided line; think of splitting in two."},
-  {"id": 89, "kanji": "多", "meaning": "many", "hint": "A field with extras; imagine a lot."},
-  {"id": 90, "kanji": "少", "meaning": "few", "hint": "A small amount; think of a little."},
-  {"id": 91, "kanji": "大", "meaning": "big", "hint": "As before."},
-  {"id": 92, "kanji": "小", "meaning": "small", "hint": "As before."},
-  {"id": 93, "kanji": "上", "meaning": "above", "hint": "As before."},
-  {"id": 94, "kanji": "下", "meaning": "below", "hint": "As before."},
-  {"id": 95, "kanji": "左", "meaning": "left", "hint": "As before."},
-  {"id": 96, "kanji": "右", "meaning": "right", "hint": "As before."},
-  {"id": 97, "kanji": "前", "meaning": "front", "hint": "As before."},
-  {"id": 98, "kanji": "後", "meaning": "back", "hint": "As before."},
-  {"id": 99, "kanji": "内", "meaning": "inside", "hint": "As before."},
-  {"id": 100, "kanji": "外", "meaning": "outside", "hint": "As before."},
-  {"id": 101, "kanji": "文", "meaning": "writing", "hint": "A character in a box; like a written word."},
-  {"id": 102, "kanji": "字", "meaning": "letter", "hint": "A child under a roof; think of learning letters."},
-  {"id": 103, "kanji": "学", "meaning": "learn", "hint": "A child under a roof with a book; imagine studying."},
-  {"id": 104, "kanji": "校", "meaning": "school", "hint": "A tree by a building; think of a schoolyard."},
-  {"id": 105, "kanji": "生", "meaning": "life", "hint": "A plant growing; imagine something alive."},
-  {"id": 106, "kanji": "工", "meaning": "work", "hint": "An I-beam; like a worker's tool."},
-  {"id": 107, "kanji": "公", "meaning": "public", "hint": "Eight under a roof; think of a public building."},
-  {"id": 108, "kanji": "分", "meaning": "part", "hint": "A knife cutting; imagine dividing something."},
-  {"id": 109, "kanji": "切", "meaning": "cut", "hint": "Seven with a knife; think of slicing."},
-  {"id": 110, "kanji": "本", "meaning": "book", "hint": "A tree with lines; like a book's pages."},
-  {"id": 111, "kanji": "犬", "meaning": "dog", "hint": "A big animal; imagine a barking dog."},
-  {"id": 112, "kanji": "猫", "meaning": "cat", "hint": "A wild cat; think of a feline."},
-  {"id": 113, "kanji": "車", "meaning": "car", "hint": "A cart with wheels; imagine driving."},
-  {"id": 114, "kanji": "電", "meaning": "electricity", "hint": "Rain under a line; think of lightning."},
-  {"id": 115, "kanji": "気", "meaning": "spirit", "hint": "Steam rising; imagine breath or gas."},
-  {"id": 116, "kanji": "力", "meaning": "power", "hint": "A strong arm; imagine flexing."},
-  {"id": 117, "kanji": "半", "meaning": "half", "hint": "A divided line; think of splitting in two."},
-  {"id": 118, "kanji": "多", "meaning": "many", "hint": "A field with extras; imagine a lot."},
-  {"id": 119, "kanji": "少", "meaning": "few", "hint": "A small amount; think of a little."},
-  {"id": 120, "kanji": "大", "meaning": "big", "hint": "A person with arms out; like something huge."}
+  {
+    "id": 1,
+    "kanji": "一",
+    "meaning": "One",
+    "hint": "A single straight line; like drawing the number 1.",
+    "romaji": [
+      "ichi"
+    ],
+    "kana": [
+      "いち"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "meaning": "Two",
+    "hint": "Two horizontal lines; think of the number 2.",
+    "romaji": [
+      "ni"
+    ],
+    "kana": [
+      "に"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 3,
+    "kanji": "三",
+    "meaning": "Three",
+    "hint": "Three horizontal lines; like counting on your fingers.",
+    "romaji": [
+      "san"
+    ],
+    "kana": [
+      "さん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 4,
+    "kanji": "四",
+    "meaning": "Four",
+    "hint": "A square shape; imagine the corners of a box.",
+    "romaji": [
+      "shi",
+      "yon"
+    ],
+    "kana": [
+      "し",
+      "よん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 5,
+    "kanji": "五",
+    "meaning": "Five",
+    "hint": "👨 A man with arms out; think of high-fiving someone.",
+    "romaji": [
+      "go"
+    ],
+    "kana": [
+      "ご"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 6,
+    "kanji": "六",
+    "meaning": "Six",
+    "hint": "A roof on a pole; like a flag on a stick.",
+    "romaji": [
+      "roku"
+    ],
+    "kana": [
+      "ろく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 7,
+    "kanji": "七",
+    "meaning": "Seven",
+    "hint": "A line with a slash; imagine cutting a line seven times.",
+    "romaji": [
+      "shichi",
+      "nana"
+    ],
+    "kana": [
+      "しち",
+      "なな"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 8,
+    "kanji": "八",
+    "meaning": "Eight",
+    "hint": "Two lines crossing; like the shape of the number 8.",
+    "romaji": [
+      "hachi"
+    ],
+    "kana": [
+      "はち"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 9,
+    "kanji": "九",
+    "meaning": "Nine",
+    "hint": "A hook or curve; think of a fishhook.",
+    "romaji": [
+      "kyuu",
+      "ku"
+    ],
+    "kana": [
+      "きゅう",
+      "く"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 10,
+    "kanji": "十",
+    "meaning": "Ten",
+    "hint": "A plus sign; like adding 1 and 0.",
+    "romaji": [
+      "juu"
+    ],
+    "kana": [
+      "じゅう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 11,
+    "kanji": "人",
+    "meaning": "Person",
+    "hint": "👨 A standing figure; like a simple human silhouette.",
+    "romaji": [
+      "hito",
+      "nin",
+      "jin"
+    ],
+    "kana": [
+      "ひと",
+      "にん",
+      "じん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 12,
+    "kanji": "山",
+    "meaning": "Mountain",
+    "hint": "⛰️ Two peaks; imagine hiking up a hill.",
+    "romaji": [
+      "yama",
+      "san"
+    ],
+    "kana": [
+      "やま",
+      "さん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 13,
+    "kanji": "水",
+    "meaning": "Water",
+    "hint": "💧 Three drops; think of water flowing from a tap.",
+    "romaji": [
+      "mizu",
+      "sui"
+    ],
+    "kana": [
+      "みず",
+      "すい"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 14,
+    "kanji": "火",
+    "meaning": "Fire",
+    "hint": "🔥 Two lines with a dot; like a flickering flame.",
+    "romaji": [
+      "hi",
+      "ka"
+    ],
+    "kana": [
+      "ひ",
+      "か"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 15,
+    "kanji": "木",
+    "meaning": "Tree",
+    "hint": "🌳 A trunk with branches; imagine a simple tree in a park.",
+    "romaji": [
+      "ki",
+      "moku"
+    ],
+    "kana": [
+      "き",
+      "もく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 16,
+    "kanji": "金",
+    "meaning": "Gold/metal",
+    "hint": "💰 A roof over a field; think of mining for gold.",
+    "romaji": [
+      "kin",
+      "kane"
+    ],
+    "kana": [
+      "きん",
+      "かね"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 17,
+    "kanji": "土",
+    "meaning": "Earth/soil",
+    "hint": "🌍 A mound of dirt; like a pile in the ground.",
+    "romaji": [
+      "tsuchi",
+      "do"
+    ],
+    "kana": [
+      "つち",
+      "ど"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 18,
+    "kanji": "日",
+    "meaning": "Sun/day",
+    "hint": "🌞 A circle with a dot; imagine the sun rising.",
+    "romaji": [
+      "hi",
+      "nichi"
+    ],
+    "kana": [
+      "ひ",
+      "にち"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 19,
+    "kanji": "月",
+    "meaning": "Moon/month",
+    "hint": "🌙 A crescent shape; like the moon at night.",
+    "romaji": [
+      "tsuki",
+      "getsu"
+    ],
+    "kana": [
+      "つき",
+      "げつ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 20,
+    "kanji": "女",
+    "meaning": "Woman",
+    "hint": "👩 A woman with a broom; think of traditional roles.",
+    "romaji": [
+      "onna",
+      "jo"
+    ],
+    "kana": [
+      "おんな",
+      "じょ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 21,
+    "kanji": "男",
+    "meaning": "Man",
+    "hint": "👨 A field on legs; imagine a strong man standing.",
+    "romaji": [
+      "otoko",
+      "dan"
+    ],
+    "kana": [
+      "おとこ",
+      "だん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 22,
+    "kanji": "子",
+    "meaning": "Child",
+    "hint": "🧒 A child sitting; like a small person.",
+    "romaji": [
+      "ko",
+      "shi"
+    ],
+    "kana": [
+      "こ",
+      "し"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 23,
+    "kanji": "目",
+    "meaning": "Eye",
+    "hint": "👁️ An eye shape; think of blinking eyes.",
+    "romaji": [
+      "me",
+      "moku"
+    ],
+    "kana": [
+      "め",
+      "もく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 24,
+    "kanji": "口",
+    "meaning": "Mouth",
+    "hint": "👄 A simple square; like an open mouth.",
+    "romaji": [
+      "kuchi",
+      "kou"
+    ],
+    "kana": [
+      "くち",
+      "こう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 25,
+    "kanji": "手",
+    "meaning": "Hand",
+    "hint": "✋ A hand extended; imagine waving hello.",
+    "romaji": [
+      "te",
+      "shu"
+    ],
+    "kana": [
+      "て",
+      "しゅ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 26,
+    "kanji": "足",
+    "meaning": "Foot/leg",
+    "hint": "🦶 Kneeling legs; think of walking feet.",
+    "romaji": [
+      "ashi",
+      "soku"
+    ],
+    "kana": [
+      "あし",
+      "そく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 27,
+    "kanji": "大",
+    "meaning": "Big/large",
+    "hint": "A person with arms out; like something huge.",
+    "romaji": [
+      "oo",
+      "dai"
+    ],
+    "kana": [
+      "おお",
+      "だい"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 28,
+    "kanji": "小",
+    "meaning": "Small",
+    "hint": "A small drop; imagine something tiny.",
+    "romaji": [
+      "chii",
+      "shou"
+    ],
+    "kana": [
+      "ちい",
+      "しょう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 29,
+    "kanji": "上",
+    "meaning": "Up/above",
+    "hint": "An arrow pointing up; like going upstairs.",
+    "romaji": [
+      "ue",
+      "jou"
+    ],
+    "kana": [
+      "うえ",
+      "じょう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 30,
+    "kanji": "下",
+    "meaning": "Down/below",
+    "hint": "An arrow pointing down; like going downstairs.",
+    "romaji": [
+      "shita",
+      "ka"
+    ],
+    "kana": [
+      "した",
+      "か"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 31,
+    "kanji": "中",
+    "meaning": "Middle/inside",
+    "hint": "A box with lines; think of something in the center.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 32,
+    "kanji": "左",
+    "meaning": "Left",
+    "hint": "✋ A hand pointing left; imagine your left side.",
+    "romaji": [
+      "hidari",
+      "sa"
+    ],
+    "kana": [
+      "ひだり",
+      "さ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 33,
+    "kanji": "右",
+    "meaning": "Right",
+    "hint": "✋ A hand pointing right; imagine your right side.",
+    "romaji": [
+      "migi",
+      "u"
+    ],
+    "kana": [
+      "みぎ",
+      "う"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 34,
+    "kanji": "前",
+    "meaning": "Front/before",
+    "hint": "A line with a stop; like moving forward.",
+    "romaji": [
+      "mae",
+      "zen"
+    ],
+    "kana": [
+      "まえ",
+      "ぜん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 35,
+    "kanji": "後",
+    "meaning": "Behind/after",
+    "hint": "A line with a tail; think of something following.",
+    "romaji": [
+      "ushiro",
+      "go"
+    ],
+    "kana": [
+      "うしろ",
+      "ご"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 36,
+    "kanji": "内",
+    "meaning": "Inside",
+    "hint": "A border enclosing; imagine inside a room.",
+    "romaji": [
+      "uchi",
+      "nai"
+    ],
+    "kana": [
+      "うち",
+      "ない"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 37,
+    "kanji": "外",
+    "meaning": "Outside",
+    "hint": "A border opening; think of going outdoors.",
+    "romaji": [
+      "soto",
+      "gai"
+    ],
+    "kana": [
+      "そと",
+      "がい"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 38,
+    "kanji": "文",
+    "meaning": "Sentence/writing",
+    "hint": "✍️ A character in a box; like a written word.",
+    "romaji": [
+      "fumi",
+      "bun"
+    ],
+    "kana": [
+      "ふみ",
+      "ぶん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 39,
+    "kanji": "字",
+    "meaning": "Character/letter",
+    "hint": "🧒 A child under a roof; think of learning letters.",
+    "romaji": [
+      "ji"
+    ],
+    "kana": [
+      "じ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 40,
+    "kanji": "学",
+    "meaning": "Study/learn",
+    "hint": "🧒 A child under a roof with a book; imagine studying.",
+    "romaji": [
+      "gaku",
+      "mana"
+    ],
+    "kana": [
+      "がく",
+      "まな"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 41,
+    "kanji": "校",
+    "meaning": "School",
+    "hint": "🌳 A tree by a building; think of a schoolyard.",
+    "romaji": [
+      "kou"
+    ],
+    "kana": [
+      "こう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 42,
+    "kanji": "生",
+    "meaning": "Life/birth",
+    "hint": "A plant growing; imagine something alive.",
+    "romaji": [
+      "sei",
+      "shou",
+      "ikiru"
+    ],
+    "kana": [
+      "せい",
+      "しょう",
+      "いきる"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 43,
+    "kanji": "工",
+    "meaning": "Work/craft",
+    "hint": "An I-beam; like a worker's tool.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 44,
+    "kanji": "公",
+    "meaning": "Public",
+    "hint": "Eight under a roof; think of a public building.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 45,
+    "kanji": "分",
+    "meaning": "Divide/part",
+    "hint": "A knife cutting; imagine dividing something.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 46,
+    "kanji": "切",
+    "meaning": "Cut",
+    "hint": "Seven with a knife; think of slicing.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 47,
+    "kanji": "本",
+    "meaning": "Book/origin",
+    "hint": "🌳 A tree with lines; like a book's pages.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 48,
+    "kanji": "犬",
+    "meaning": "Dog",
+    "hint": "🐕 A big animal; imagine a barking dog.",
+    "romaji": [
+      "inu"
+    ],
+    "kana": [
+      "いぬ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 49,
+    "kanji": "猫",
+    "meaning": "Cat",
+    "hint": "🐈 A wild cat; think of a feline.",
+    "romaji": [
+      "neko"
+    ],
+    "kana": [
+      "ねこ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 50,
+    "kanji": "車",
+    "meaning": "Car/vehicle",
+    "hint": "🚗 A cart with wheels; imagine driving.",
+    "romaji": [
+      "kuruma",
+      "sha"
+    ],
+    "kana": [
+      "くるま",
+      "しゃ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 51,
+    "kanji": "電",
+    "meaning": "Electricity",
+    "hint": "Rain under a line; think of lightning.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 52,
+    "kanji": "気",
+    "meaning": "Spirit/air",
+    "hint": "🍚 Steam rising; imagine breath or gas.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 53,
+    "kanji": "天",
+    "meaning": "Heaven/sky",
+    "hint": "☁️ A big person above; like the sky.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 54,
+    "kanji": "地",
+    "meaning": "Ground/earth",
+    "hint": "🌍 Soil with lines; think of the earth's surface.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 55,
+    "kanji": "雨",
+    "meaning": "Rain",
+    "hint": "🌧️ Dots falling; imagine raindrops.",
+    "romaji": [
+      "ame",
+      "u"
+    ],
+    "kana": [
+      "あめ",
+      "う"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 56,
+    "kanji": "雪",
+    "meaning": "Snow",
+    "hint": "❄️ Rain freezing; think of snowflakes.",
+    "romaji": [
+      "yuki"
+    ],
+    "kana": [
+      "ゆき"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 57,
+    "kanji": "花",
+    "meaning": "Flower",
+    "hint": "🌸 A plant blooming; imagine a pretty flower.",
+    "romaji": [
+      "hana"
+    ],
+    "kana": [
+      "はな"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 58,
+    "kanji": "食",
+    "meaning": "Eat/food",
+    "hint": "🍚 A cover over food; like a meal.",
+    "romaji": [
+      "taberu",
+      "shoku"
+    ],
+    "kana": [
+      "たべる",
+      "しょく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 59,
+    "kanji": "飲",
+    "meaning": "Drink",
+    "hint": "🥤 Water in a container; think of sipping.",
+    "romaji": [
+      "nomu",
+      "in"
+    ],
+    "kana": [
+      "のむ",
+      "いん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 60,
+    "kanji": "休",
+    "meaning": "Rest",
+    "hint": "🌳 A person under a tree; imagine relaxing.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 61,
+    "kanji": "行",
+    "meaning": "Go/walk",
+    "hint": "🛣️ Crossroads; think of moving forward.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 62,
+    "kanji": "来",
+    "meaning": "Come",
+    "hint": "A person arriving; imagine someone coming.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 63,
+    "kanji": "入",
+    "meaning": "Enter",
+    "hint": "Arrow going in; like entering a door.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 64,
+    "kanji": "出",
+    "meaning": "Exit",
+    "hint": "Arrow going out; think of leaving.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 65,
+    "kanji": "見",
+    "meaning": "See",
+    "hint": "👁️ An eye with legs; imagine looking around.",
+    "romaji": [
+      "miru",
+      "ken"
+    ],
+    "kana": [
+      "みる",
+      "けん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 66,
+    "kanji": "聞",
+    "meaning": "Hear",
+    "hint": "An ear with a gate; think of listening.",
+    "romaji": [
+      "kiku",
+      "bun"
+    ],
+    "kana": [
+      "きく",
+      "ぶん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 67,
+    "kanji": "言",
+    "meaning": "Say",
+    "hint": "👄 Words from a mouth; imagine speaking.",
+    "romaji": [
+      "iu",
+      "gen"
+    ],
+    "kana": [
+      "いう",
+      "げん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 68,
+    "kanji": "話",
+    "meaning": "Talk/speech",
+    "hint": "👄 Words under a mouth; think of chatting.",
+    "romaji": [
+      "hanasu",
+      "wa"
+    ],
+    "kana": [
+      "はなす",
+      "わ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 69,
+    "kanji": "読",
+    "meaning": "Read",
+    "hint": "📘 Words with a sell; imagine reading a book.",
+    "romaji": [
+      "yomu",
+      "doku"
+    ],
+    "kana": [
+      "よむ",
+      "どく"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 70,
+    "kanji": "書",
+    "meaning": "Write",
+    "hint": "✋ A hand with a script; think of writing.",
+    "romaji": [
+      "kaku",
+      "sho"
+    ],
+    "kana": [
+      "かく",
+      "しょ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 71,
+    "kanji": "買",
+    "meaning": "Buy",
+    "hint": "A shell exchanged; imagine shopping.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 72,
+    "kanji": "売",
+    "meaning": "Sell",
+    "hint": "A net over goods; think of selling items.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 73,
+    "kanji": "店",
+    "meaning": "Store",
+    "hint": "A shop with a counter; imagine a store front.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 74,
+    "kanji": "家",
+    "meaning": "House",
+    "hint": "🏠 A roof with a pig; think of a home.",
+    "romaji": [
+      "ie",
+      "ka"
+    ],
+    "kana": [
+      "いえ",
+      "か"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 75,
+    "kanji": "門",
+    "meaning": "Gate",
+    "hint": "A big door; imagine entering a gate.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 76,
+    "kanji": "道",
+    "meaning": "Road/way",
+    "hint": "🌳 A path with a head; think of a street.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 77,
+    "kanji": "駅",
+    "meaning": "Station",
+    "hint": "🌧️ A building with a stand; imagine a train station.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 78,
+    "kanji": "止",
+    "meaning": "Stop",
+    "hint": "🦶 A foot stopping; like halting.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 79,
+    "kanji": "立",
+    "meaning": "Stand",
+    "hint": "A person standing; imagine upright.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 80,
+    "kanji": "走",
+    "meaning": "Run",
+    "hint": "A running person; think of sprinting.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 81,
+    "kanji": "北",
+    "meaning": "North",
+    "hint": "A spoon pointing up; imagine the north direction.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 82,
+    "kanji": "南",
+    "meaning": "South",
+    "hint": "A stretch downward; think of the south.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 83,
+    "kanji": "東",
+    "meaning": "East",
+    "hint": "🌳 A tree on a hill; imagine the east sun.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 84,
+    "kanji": "西",
+    "meaning": "West",
+    "hint": "🌞 A bird flying west; think of the setting sun.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 85,
+    "kanji": "元",
+    "meaning": "Origin",
+    "hint": "A person at the start; imagine the beginning.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 86,
+    "kanji": "気",
+    "meaning": "Spirit",
+    "hint": "💨 As before, for consistency.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 87,
+    "kanji": "力",
+    "meaning": "Power",
+    "hint": "💪 A strong arm; imagine flexing.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 88,
+    "kanji": "半",
+    "meaning": "Half",
+    "hint": "A divided line; think of splitting in two.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 89,
+    "kanji": "多",
+    "meaning": "Many",
+    "hint": "👨 A field with extras; imagine a lot.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 90,
+    "kanji": "少",
+    "meaning": "Few",
+    "hint": "A small amount; think of a little.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 91,
+    "kanji": "大",
+    "meaning": "Big",
+    "hint": "🌟 Symbolizes greatness — imagine someone standing tall and confident.",
+    "romaji": [
+      "oo",
+      "dai"
+    ],
+    "kana": [
+      "おお",
+      "だい"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 92,
+    "kanji": "小",
+    "meaning": "Small",
+    "hint": "🔹 Represents smallness — like a tiny star twinkling faintly.",
+    "romaji": [
+      "chii",
+      "shou"
+    ],
+    "kana": [
+      "ちい",
+      "しょう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 93,
+    "kanji": "上",
+    "meaning": "Above",
+    "hint": "⬆️ Means upward — think of climbing stairs or rising higher.",
+    "romaji": [
+      "ue",
+      "jou"
+    ],
+    "kana": [
+      "うえ",
+      "じょう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 94,
+    "kanji": "下",
+    "meaning": "Below",
+    "hint": "⬇️ Means downward — like descending or bowing respectfully.",
+    "romaji": [
+      "shita",
+      "ka"
+    ],
+    "kana": [
+      "した",
+      "か"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 95,
+    "kanji": "左",
+    "meaning": "Left",
+    "hint": "👈 Represents left — your guiding hand showing direction.",
+    "romaji": [
+      "hidari",
+      "sa"
+    ],
+    "kana": [
+      "ひだり",
+      "さ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 96,
+    "kanji": "右",
+    "meaning": "Right",
+    "hint": "👉 Represents right — your dominant hand leading the way.",
+    "romaji": [
+      "migi",
+      "u"
+    ],
+    "kana": [
+      "みぎ",
+      "う"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 97,
+    "kanji": "前",
+    "meaning": "Front",
+    "hint": "🪞 Means front — like looking ahead or facing forward.",
+    "romaji": [
+      "mae",
+      "zen"
+    ],
+    "kana": [
+      "まえ",
+      "ぜん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 98,
+    "kanji": "後",
+    "meaning": "Back",
+    "hint": "🔙 Means back — think of returning or looking behind.",
+    "romaji": [
+      "ushiro",
+      "go"
+    ],
+    "kana": [
+      "うしろ",
+      "ご"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 99,
+    "kanji": "内",
+    "meaning": "Inside",
+    "hint": "🏠 Means inside — imagine sitting safely indoors.",
+    "romaji": [
+      "uchi",
+      "nai"
+    ],
+    "kana": [
+      "うち",
+      "ない"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 100,
+    "kanji": "外",
+    "meaning": "Outside",
+    "hint": "🌄 Means outside — stepping into the open air or nature.",
+    "romaji": [
+      "soto",
+      "gai"
+    ],
+    "kana": [
+      "そと",
+      "がい"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 101,
+    "kanji": "文",
+    "meaning": "Writing",
+    "hint": "✍️ A character in a box; like a written word.",
+    "romaji": [
+      "fumi",
+      "bun"
+    ],
+    "kana": [
+      "ふみ",
+      "ぶん"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 102,
+    "kanji": "字",
+    "meaning": "Letter",
+    "hint": "🧒 A child under a roof; think of learning letters.",
+    "romaji": [
+      "ji"
+    ],
+    "kana": [
+      "じ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 103,
+    "kanji": "学",
+    "meaning": "Learn",
+    "hint": "🧒 A child under a roof with a book; imagine studying.",
+    "romaji": [
+      "gaku",
+      "mana"
+    ],
+    "kana": [
+      "がく",
+      "まな"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 104,
+    "kanji": "校",
+    "meaning": "School",
+    "hint": "🌳 A tree by a building; think of a schoolyard.",
+    "romaji": [
+      "kou"
+    ],
+    "kana": [
+      "こう"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 105,
+    "kanji": "生",
+    "meaning": "Life",
+    "hint": "A plant growing; imagine something alive.",
+    "romaji": [
+      "sei",
+      "shou",
+      "ikiru"
+    ],
+    "kana": [
+      "せい",
+      "しょう",
+      "いきる"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 106,
+    "kanji": "工",
+    "meaning": "Work",
+    "hint": "An I-beam; like a worker's tool.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 107,
+    "kanji": "公",
+    "meaning": "Public",
+    "hint": "Eight under a roof; think of a public building.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 108,
+    "kanji": "分",
+    "meaning": "Part",
+    "hint": "A knife cutting; imagine dividing something.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 109,
+    "kanji": "切",
+    "meaning": "Cut",
+    "hint": "Seven with a knife; think of slicing.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 110,
+    "kanji": "本",
+    "meaning": "Book",
+    "hint": "🌳 A tree with lines; like a book's pages.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 111,
+    "kanji": "犬",
+    "meaning": "Dog",
+    "hint": "🐕 A big animal; imagine a barking dog.",
+    "romaji": [
+      "inu"
+    ],
+    "kana": [
+      "いぬ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 112,
+    "kanji": "猫",
+    "meaning": "Cat",
+    "hint": "🐈 A wild cat; think of a feline.",
+    "romaji": [
+      "neko"
+    ],
+    "kana": [
+      "ねこ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 113,
+    "kanji": "車",
+    "meaning": "Car",
+    "hint": "🚗 A cart with wheels; imagine driving.",
+    "romaji": [
+      "kuruma",
+      "sha"
+    ],
+    "kana": [
+      "くるま",
+      "しゃ"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 114,
+    "kanji": "電",
+    "meaning": "Electricity",
+    "hint": "Rain under a line; think of lightning.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 115,
+    "kanji": "気",
+    "meaning": "Spirit",
+    "hint": "🍚 Steam rising; imagine breath or gas.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 116,
+    "kanji": "力",
+    "meaning": "Power",
+    "hint": "💪 A strong arm; imagine flexing.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 117,
+    "kanji": "半",
+    "meaning": "Half",
+    "hint": "A divided line; think of splitting in two.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 118,
+    "kanji": "多",
+    "meaning": "Many",
+    "hint": "👨 A field with extras; imagine a lot.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 119,
+    "kanji": "少",
+    "meaning": "Few",
+    "hint": "A small amount; think of a little.",
+    "romaji": [
+      "unknown"
+    ],
+    "kana": [
+      "ー"
+    ],
+    "jlpt_level": "N5"
+  },
+  {
+    "id": 120,
+    "kanji": "大",
+    "meaning": "Big",
+    "hint": "A person with arms out; like something huge.",
+    "romaji": [
+      "oo",
+      "dai"
+    ],
+    "kana": [
+      "おお",
+      "だい"
+    ],
+    "jlpt_level": "N5"
+  }
 ]
