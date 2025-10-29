@@ -12,15 +12,16 @@ router.get("/random", async (req, res) => {
     if (!kanji) return res.status(404).json({ message: "No Kanji found" });
 
     res.json({
-      id: kanji._id,
+      
       symbol: kanji.symbol,
       romaji: kanji.romaji,
       kana: kanji.kana,
       meaning: kanji.meaning,
-      hint: kanji.hint,
+      hint: kanji.hint
     });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server error" });
   }
 });
 
