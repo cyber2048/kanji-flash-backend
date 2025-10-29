@@ -9,7 +9,7 @@ const authMiddleware = require('../middleware/auth');
 // REGISTER ROUTE
 router.post('/register',
   [
-    body('username').trim().isLength({ min: 3 }).withMessage('Username must be at least 3 characters'),
+    body('name').trim().isLength({ min: 3 }).withMessage('name must be at least 3 characters'),
     body('email').isEmail().withMessage('Please enter a valid email'),
     body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters')
   ],
@@ -20,9 +20,9 @@ router.post('/register',
         return res.status(400).json({ errors: errors.array() });
       }
 
-      const { username, email, password } = req.body;
+      const { name, email, password } = req.body;
 
-      let user = await User.findOne({ $or: [{ email }, { username }] });
+      let user = await User.findOne({ $or: [{ email }, { name }] });
       if (user) {
         return res.status(400).json({ message: 'User already exists' });
       }
@@ -31,7 +31,7 @@ router.post('/register',
       const hashedPassword = await bcrypt.hash(password, salt);
 
       user = new User({
-        username,
+        name,
         email,
         password: hashedPassword
       });
@@ -55,7 +55,7 @@ router.post('/register',
         token,
         user: {
           id: user.id,
-          username: user.username,
+          name: user.name,
           email: user.email
         }
       });
@@ -109,7 +109,7 @@ router.post('/login',
         token,
         user: {
           id: user.id,
-          username: user.username,
+          name: user.name,
           email: user.email
         }
       });
@@ -132,7 +132,7 @@ router.get('/verify', authMiddleware, async (req, res) => {
     res.json({
       user: {
         id: user.id,
-        username: user.username,
+        name: user.name,
         email: user.email
       }
     });
