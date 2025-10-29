@@ -15,11 +15,31 @@ const app = express();
 //   'http://localhost:3000'                      
 // ];
 
+// app.use(cors({
+//   origin: 'https://kanji-flash-frontend.onrender.com',
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//   credentials: true
+// }));
+
+const allowedOrigins = [
+  "https://kanji-flash-frontend.onrender.com",   // your main web app
+  "chrome-extension://mmnjnboonoiagjgeodmfcogpnoikodnh"  // your extension ID
+];
+
 app.use(cors({
-  origin: 'https://kanji-flash-frontend.onrender.com',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like curl/postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("Not allowed by CORS"));
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
+
 
 app.use(express.json());
 
