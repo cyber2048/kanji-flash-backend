@@ -6,7 +6,7 @@ const cors = require('cors');
 const fs = require('fs');
 const Kanji = require('./models/kanji');
 const authRoutes = require('./src/routes/auth');
-const kanjiRoutes = require('./src/routes/kanjiRoutes')
+const kanjiRoutes = require('./routes/kanjiRoutes')
 const app = express();
 
 // const allowedOrigins = [
