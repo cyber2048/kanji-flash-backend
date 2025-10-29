@@ -6,7 +6,7 @@ const cors = require('cors');
 const fs = require('fs');
 const Kanji = require('./models/kanji');
 const authRoutes = require('./src/routes/auth');
-
+const kanjiRoutes = require('./src/routes/kanjiRoutes')
 const app = express();
 
 // const allowedOrigins = [
@@ -84,7 +84,8 @@ app.get('/api/kanji/test', async (req, res) => {
   }
 });
 
-app.use("/api/kanji", require("./routes/kanjiRoutes"));
+// app.use("/api/kanji", require("./routes/kanjiRoutes"));
+app.use("/api/kanji", kanjiRoutes);
 
 
 const PORT = process.env.PORT || 5000;
