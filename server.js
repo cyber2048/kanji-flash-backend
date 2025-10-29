@@ -84,6 +84,9 @@ app.get('/api/kanji/test', async (req, res) => {
   }
 });
 
+app.use("/api/kanji", require("./routes/kanjiRoutes"));
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
