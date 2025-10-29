@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Kanji = require("../models/kanji");
+const Kanji = require('../../models/kanji');
 
 // Get a random Kanji
 router.get("/random", async (req, res) => {
