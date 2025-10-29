@@ -7,22 +7,21 @@ router.get("/random", async (req, res) => {
   try {
     const count = await Kanji.countDocuments();
     const random = Math.floor(Math.random() * count);
-    const kanji = await Kanji.findOne().skip(random).lean();
-
-    if (!kanji) return res.status(404).json({ message: "No Kanji found" });
+    const randomKanji = await Kanji.findOne().skip(random);
 
     res.json({
-      
-      symbol: kanji.symbol,
-      romaji: kanji.romaji,
-      kana: kanji.kana,
-      meaning: kanji.meaning,
-      hint: kanji.hint
+      symbol: randomKanji.kanji,      
+      meaning: randomKanji.meaning,
+      romaji: randomKanji.romaji,
+      kana: randomKanji.kana,
+      hint: randomKanji.hint,
+      jlpt: randomKanji.jlpt
     });
   } catch (error) {
-    console.error(error);
+    console.error("Error fetching random Kanji:", error);
     res.status(500).json({ message: "Server error" });
   }
 });
+
 
 module.exports = router;
